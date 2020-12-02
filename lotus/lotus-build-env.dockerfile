@@ -1,5 +1,5 @@
 # lotus编译环境
-FROM golang:1.15.2
+FROM golang:1.15.5
 
 ENV RUSTFLAGS="-C target-cpu=native -g"
 
