@@ -15,7 +15,7 @@ RUN apk add --no-cache  git nodejs npm  bash vim  python3 gcc libcurl make
 RUN rm -rf /var/cache/apk/* \
   && mkdir /yapi && cd /yapi && git clone https://github.com/YMFE/yapi.git vendors \
   && npm i -g node-gyp yapi-cli npm@latest \
-  && cd /yapi/vendors && npm i --production \
+  && cd /yapi/vendors && npm i --production;
 # 工作目录
 WORKDIR /yapi/vendors
 # 配置yapi的配置文件
