@@ -1,5 +1,7 @@
 # 个人自定义Dockerfile
 各Dockerfile说明：
+* `yapi`：yapi接口容器
+* `lotus`：filecoin节点编译和运行容器
 * `Dockerfile_substrate`：用于提供substrate的编译环境
 * `Dockerfile_substrate2`：用于提供substrate的编译环境，同上
 * `Dockerfile_substrate_exec`：用于轻量级执行substrate程序
